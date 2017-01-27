@@ -1,15 +1,13 @@
-// @import 'font-awesome';
-
 *{
 	margin: 0 auto;
 	max-width: 1200px;
 }
 body{
-	// background: lighten(#870139, 5%);
 	background: darken(#54BAA8, 7%);
 }
 header{
 	max-width: 800px;
+	margin-bottom: 20px;
 	#title-bar{
 		display: flex;
 		flex-direction: column;
@@ -17,23 +15,22 @@ header{
 	}
 	h1,h2{
 		font-size: 3em;
-		margin: 0;
+		margin: 0px;
 	}
 	nav{
 		display: flex;
 		flex-direction: row; 
-		align-content: space-among;
-		div{
-			margin-bottom: 20px;
-		}
+		align-content: space-between;
+		width: 40%;
 		a{
 			text-decoration: none;
-			background-color: black;
+			background-color: lighten(black, 15%);
 			color: white;
-			letter-spacing: 0.75px;
+			font-size: 1.3em;
+			letter-spacing: 0.85px;
 			border: 1px solid black;
-			border-radius: 5px;
-			padding: 6px;
+			border-radius: 5%;
+			padding: 12px 35px;
 		}
 	}
 }
@@ -50,13 +47,11 @@ header{
 	margin-bottom: 8px;
 }
 #work-cards{
-	// border: 2px solid white;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 #card{
-	// border: 0.5px solid red;
 	background-color: darken(white, 15%);
 	border-radius: 10px;
 	min-width: 43%;
@@ -92,34 +87,28 @@ header{
 }
 //Skills/Experience
 #skills-xp-block{
-	// border-bottom: 3.5px solid lighten(black, 15%);
 	padding-bottom: 25px;
 	width: 80%;
 	display: flex;
 	flex-direction: row;
 	#skills{
-		// border: 0.5px dotted red;
 		width: 50%;
 		h3{
 			color: lighten(black, 0%);
 			letter-spacing: 0.35px;
-			margin: 5px 5px 5px 35px;
+			margin: 0px 5px 5px 40px;
 			font-size: 1.5em;
 		}
 	}
 	#xp{
 		width: 50%;
-		// border: 0.5px dotted red;
 		article{
-			margin: 15px 0px;
+			// margin: 15px 0px;
 			h3{
-				margin: 10px 0px;
+				margin: 4px 0px;
 			}
 		}
 		details{
-			summary{
-				// font-weight: bolder;
-			}
 			p{
 				color: lighten(black, 10%);
 				font-size: 0.9em;
@@ -128,7 +117,6 @@ header{
 		}
 	}
 	#ed{
-	// 	border: 0.5px dotted red;
 		width: 45%;
 		details{
 			margin: 7px 0;
@@ -143,13 +131,9 @@ header{
 		}
 	}
 	#info{
-		// border: 0.5px solid white;
 		width: 55%;
 		#contact{
-			// border: 0.5px solid yellow;
 			div{
-				// width: 50%;
-				// border: 0.5px solid orange;
 				margin: 0;
 				padding: 0;
 				figure {
