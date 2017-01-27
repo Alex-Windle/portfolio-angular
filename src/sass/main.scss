@@ -47,6 +47,7 @@ header{
 //Work
 #work-title{
 	display: flex;
+	margin-bottom: 8px;
 }
 #work-cards{
 	// border: 2px solid white;
@@ -89,16 +90,90 @@ header{
 		}
 	}
 }
-// #bucketlist-panels{
-// 	background-color: lighten(blue, 20%);
-// 	width: 50%;
-// 	display: flex;
-// 	flex-direction: column;
-// 	#bucketlist-pic{
-// 		// border: 2px solid green;
-// 		max-width: 100%;
-// 		figure{
-// 			max-width: 100%;
-// 		}
-// 	}
-// }
+//Skills/Experience
+#skills-xp-block{
+	// border-bottom: 3.5px solid lighten(black, 15%);
+	padding-bottom: 25px;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	#skills{
+		// border: 0.5px dotted red;
+		width: 50%;
+		h3{
+			color: lighten(black, 0%);
+			letter-spacing: 0.35px;
+			margin: 5px 5px 5px 35px;
+			font-size: 1.5em;
+		}
+	}
+	#xp{
+		width: 50%;
+		// border: 0.5px dotted red;
+		article{
+			margin: 15px 0px;
+			h3{
+				margin: 10px 0px;
+			}
+		}
+		details{
+			summary{
+				// font-weight: bolder;
+			}
+			p{
+				color: lighten(black, 10%);
+				font-size: 0.9em;
+				margin: 6px 0px 6px 30px;
+			}
+		}
+	}
+	#ed{
+	// 	border: 0.5px dotted red;
+		width: 45%;
+		details{
+			margin: 7px 0;
+			summary{
+				font-weight: bolder;
+			}
+			p{
+				color: lighten(black, 10%);
+				font-size: 0.95em;
+				margin: 6px 0px 6px 30px;
+			}
+		}
+	}
+	#info{
+		// border: 0.5px solid white;
+		width: 55%;
+		#contact{
+			// border: 0.5px solid yellow;
+			div{
+				// width: 50%;
+				// border: 0.5px solid orange;
+				margin: 0;
+				padding: 0;
+				figure {
+					padding:0;
+					margin:0;
+					width: 100%;
+					img{
+						width: 100%;
+						height: 50%;
+					}
+				}
+			}
+			#panel-r{
+				width: 60%;
+				margin-left: 10px;
+				h1{
+					margin-top: 0;
+					margin-bottom: 0;
+				}
+			}
+			#panel-l{
+				width: 40%;
+			}
+		}
+	}
+}
+
