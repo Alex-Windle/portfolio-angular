@@ -10,39 +10,152 @@
   <body ng-app="app">
     <div class="container">
       <header>
-        <h1>Alex Windle</h1>
-        <h2>Frontend Web Developer</h2>
-      </header>
-
-      <nav>
-        <a href="www.linkedin.com/in/AlexWindle">LinkedIN</a>
-        <a href="www.github.com/alex-windle">GitHUB</a>
-        <a href="https://www.instagram.com/_alxtwin/">INSTAGRAM</a>
-        <a href="https://alxtwin.wordpress.com/">BLOG</a>
+        <div id="title-bar">
+          <div><h1>Alex Windle</h1></div>
+          <div><h2>Frontend Web Developer</h2></div>
+        </div>
+        <nav>
+          <div><a href="www.linkedin.com/in/AlexWindle">LinkedIN</a></div>
+          <div><a href="www.github.com/alex-windle">GitHUB</a></div>
+          <div><a href="https://www.instagram.com/_alxtwin/">INSTAGRAM</a></div>
+          <div><a href="https://alxtwin.wordpress.com/">BLOG</a></div>
       </nav>
+      </header>
       
       <section>
-        <h1>Contact</h1>
-        <p>alexwindle85@gmail.com</p>
-        <p>706-622-6733</p>
-        <aside>
-          <figure>
-            <img src="images/Alex Windle copy.jpg" alt="Profile pic" height="300">
-          </figure>
-        </aside>
+        <div id="work-title">
+          <div><h1>Work</h1></div>
+        </div>
+        
+        <div id="work-cards">
+          <div id="card">
+            <article>
+              <div id="bucketlist-panels">
+                <div id="bucketlist-pic">
+                  <figure>
+                    <img src="images/bucketlist-home.png" alt="image" width="520px">
+                  </figure>
+                </div>
+                <div id="bucketlist-descr">
+                  <h3>My Bucket List</h3>
+                  <p>Full-stack app allows users to create goals, such as traveling to Paris. When users accomplish a goal, it is added to the Accomplishments list. Currently building features to allow users to add stories and photos to their Accomplishments list. Project built using JavaScript, Angular JS and Node JS.</p>
+                </div>
+                
+                <div>
+                  <nav>
+                    <a href="github.com/My-Bucket-List">See the code</a>
+                    <a href="http://tiy-alexwindle-bucket-list-frontend.surge.sh">View live on Surge</a>
+                  </nav>
+                </div>
+              </div>
+            </article>
+          </div>
+          
+          <div id="card">
+          <article>
+            <div id="bucketlist-panels">
+              <div id="bucketlist-pic">
+                <figure>
+                  <img src="images/cabin-fever.png" alt="image" width="520px">
+                </figure>
+              </div>
+              
+              <div id="bucketlist-descr">
+                <h3>Cabin Fever</h3>
+                <p>App allows users to list personal property, like a mountain cabin, for rent. Users can search for rentals, view up-to-date property details, and make reservations via 3rd party site. App allows users to search across multiple platforms in one easy step, making for an efficient user experience. Project built in a team with JavaScript, React JS, CSS and the Agile/SCRUM method.</p>
+              </div>
+              <div>
+                <nav>
+                  <a href="https://github.com/GetCabinFever">See the code</a>
+                  <a href="http://cabin-fever.surge.sh">View live on Surge</a>
+                </nav>
+              </div>
+            </div>
+          </article>
+        </div>
+
+          <div id="card">
+            <article>
+              <div id="bucketlist-panels">
+                <div id="bucketlist-pic">
+                  <figure>
+                    <img src="images/picture-home.png" alt="image" width="520px">
+                  </figure>
+                </div>
+                <div id="bucketlist-descr">
+                  <h3>My Picture Gallery</h3>
+                  <p>Full-stack application built with JavaScript, Angular JS and Node JS.</p>
+                </div>
+                <div>
+                  <nav>
+                    <a href="github.com/My-Picture-Gallery">See the code</a>
+                    <a href="http://tiy-alexwindle-picture-gallery-frontend.surge.sh/">View live on Surge</a>
+                  </nav>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
       </section>
 
       <section>
         <h1>Skills</h1>
         <p>JavaScript, HTML, CSS, Angular JS, React JS, AJAX, jQuery, JSON, Git and Agile methods</p>
       </section>
-      
+
       <section>
+        <h1>Relevant Experience</h1>
+        <article>
+          <h1>The Home Depot</h1>
+          <details>
+            <summary>Software Developer Apprentice | Atlanta, GA | Aug-Oct 2016</summary>
+            <p>12-week apprenticeship. Worked on Product Safety application with ReactJS, HTML, CSS and JavaScript on the frontend, as well as Java and SQL on the backend.</p>
+          </details>
+        </article>
+        <article>
+          <h1>The Iron Yard</h1>
+          <details>
+            <summary>Frontend Engineering Student | Atlanta, GA | Feb-May 2016</summary>
+            <p>The Iron Yard is a 12-week coding bootcamp specializing in highly focused, immersive training centered on language fluency, object-oriented programming, and project-based learning.</p>
+          </details>
+        </article>
+      </section>
+
+      <section id="contact">
+        <div>
+          <h1>Contact</h1>
+          <p>Hi, I'm Alex! I'm an international teacher turned web developer, channeling a love for learning to the tech industry. I solve problems with a focus on function, form and collaboration. When I'm not coding, you can find me hiking by the Chattahoochee River, listening to an audio book or cooking.</p>
+          </br>
+          <p>alexwindle85@gmail.com</p>
+          <p>706-622-6733</p>
+        </div>
+        <div>
+          <figure>
+            <img src="images/Alex Windle copy.jpg" alt="Profile pic" height="300">
+          </figure>
+        </div>
+      </section>
+
+      <section>
+        <h1>Education</h1>
+        <details>
+          <summary>Girl Develop It | Atlanta, GA | Oct 2015-Jun 2016</summary>
+          <p>Took a variety of courses, including: Intro to JavaScript, HTML/CSS I, HTML/CSS II, Intro to Github</p>
+        </details>
+        <details>
+          <summary>Georgia State University | Atlanta, GA | 2012</summary>
+          <p>M.A. Secondary English Education</p>
+        </details>
+        <details>
+          <summary>Virginia Commonwealth University | Richmond, VA | 2008</summary>
+          <p>B.A. Art History</p>
+        </details>
+      </section>
+
+      <!-- <section>
         <h1>Projects</h1>
         <article>
-          <header>
-            <h3>My Bucket List</h3>
-          </header>
+          <h3>My Bucket List</h3>
           <figure>
             <img src="images/bucketlist-home.png" alt="Bucket List: home view" height="150">
             <figcaption>Homepage</figcaption>
@@ -62,9 +175,7 @@
           <p>Full-stack app allows users to create goals, such as traveling to Paris. When users accomplish a goal, it is added to the Accomplishments list. Currently building features to allow users to add stories and photos to their Accomplishments list. Project built using JavaScript, Angular JS and Node JS.</p>
         </article>
         <article>
-          <header>
-            <h3>My Picture Gallery</h3>
-          </header>
+          <h3>My Picture Gallery</h3>
           <figure>
             <img src="images/picture-home.png" alt="Picture Gallery: home view" height="150">
           </figure>
@@ -78,9 +189,7 @@
           <p>Full-stack application built with JavaScript, Angular JS and Node JS.</p>
         </article>
         <article>
-          <header>
-            <h3>Cabin Fever</h3>
-          </header>
+          <h3>Cabin Fever</h3>
           <figure>
             <img src="images/cabin-fever.png" alt="Cabin Fever" height="150">
           </figure>
@@ -90,42 +199,7 @@
           </nav>
           <p>App allows users to list personal property, like a mountain cabin, for rent. Users can search for rentals, view up-to-date property details, and make reservations via 3rd party site. App allows users to search across multiple platforms in one easy step, making for an efficient user experience. Project built in a team with JavaScript, React JS, CSS and the Agile/SCRUM method.</p>
         </article>
-      </section>
-
-      <section>
-        <h1>Relevant Experience</h1>
-        <article>
-          <header>The Home Depot</header>
-          <details>
-            <summary>Software Developer Apprentice | Atlanta, GA | Aug-Oct 2016</summary>
-            <p>12-week apprenticeship. Worked on Product Safety application with ReactJS, HTML, CSS and JavaScript on the frontend, as well as Java and SQL on the backend.</p>
-          </details>
-        </article>
-        <article>
-          <header>The Iron Yard</header>
-          <details>
-            <summary>Frontend Engineering Student | Atlanta, GA | Feb-May 2016</summary>
-            <p>The Iron Yard is a 12-week coding bootcamp specializing in highly focused, immersive training centered on language fluency, object-oriented programming, and project-based learning.</p>
-          </details>
-        </article>
-      </section>
-
-      <section>
-        <h1>Education</h1>
-        <details>
-          <summary>Girl Develop It | Atlanta, GA | Oct 2015-Jun 2016</summary>
-          <p>Took a variety of courses, including: Intro to JavaScript, HTML/CSS I, HTML/CSS II, Intro to Github</p>
-        </details>
-        <details>
-          <summary>Georgia State University | Atlanta, GA | 2012</summary>
-          <p>M.A. Secondary English Education</p>
-        </details>
-        <details>
-          <summary>Virginia Commonwealth University | Richmond, VA | 2008</summary>
-          <p>B.A. Art History</p>
-        </details>
-      </section>
-
+      </section> -->
     </div>
     <script src="js/bundle.js"></script>
   </body>

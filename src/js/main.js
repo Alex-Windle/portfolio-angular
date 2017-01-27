@@ -1,3 +1,3 @@
-import angular from ‘angular’;
+// import angular from ‘angular’;
 
-angular.module(‘app’, []);
+// angular.module(‘app’, []);
