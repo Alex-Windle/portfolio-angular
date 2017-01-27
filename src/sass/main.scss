@@ -1,3 +1,5 @@
+// @import 'font-awesome';
+
 *{
 	margin: 0 auto;
 	max-width: 1200px;
@@ -20,6 +22,19 @@ header{
 	nav{
 		display: flex;
 		flex-direction: row; 
+		align-content: space-among;
+		div{
+			margin-bottom: 20px;
+		}
+		a{
+			text-decoration: none;
+			background-color: black;
+			color: white;
+			letter-spacing: 0.75px;
+			border: 1px solid black;
+			border-radius: 5px;
+			padding: 6px;
+		}
 	}
 }
 #contact{
@@ -55,7 +70,14 @@ header{
 		display: flex;
 		flex-direction: column;
 		a{
-			margin-bottom: 7px;
+			margin-bottom: 12px;
+			text-decoration: none;
+			background-color: lighten(black, 17%);
+			color: white;
+			letter-spacing: 0.75px;
+			border: 1px solid black;
+			border-radius: 4px;
+			padding: 15px;
 		}
 	}
 	figure{
