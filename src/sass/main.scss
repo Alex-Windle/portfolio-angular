@@ -85,28 +85,47 @@ header{
 		}
 	}
 }
-//Skills/Experience
-#skills-xp-block{
-	padding-bottom: 25px;
-	width: 80%;
+//Section Two
+#section-two{
 	display: flex;
-	flex-direction: row;
+	width: 90%;
+	flex-direction: row; 
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-bottom: 120px;
+	div{
+		width: 325px;
+		height: 250px;
+		margin: 0; 
+		padding: 0;
+	}
 	#skills{
-		width: 50%;
 		h3{
-			color: lighten(black, 0%);
-			letter-spacing: 0.35px;
-			margin: 0px 5px 5px 40px;
+			margin-bottom: 5px;
 			font-size: 1.5em;
 		}
 	}
 	#xp{
-		width: 50%;
-		article{
-			// margin: 15px 0px;
-			h3{
-				margin: 4px 0px;
+		h3{
+			margin: 4px 0px;
+		}
+		summary{
+			margin-bottom: 0px;
+		}
+		details{
+			p{
+				color: lighten(black, 10%);
+				font-size: 0.9em;
+				margin: 0px 0px 0px 30px;
 			}
+		}
+	}
+	#ed{
+		h3{
+			margin: 4px 0px;
+		}
+		summary{
+			margin-bottom: 10px;
 		}
 		details{
 			p{
@@ -116,48 +135,22 @@ header{
 			}
 		}
 	}
-	#ed{
-		width: 45%;
-		details{
-			margin: 7px 0;
-			summary{
-				font-weight: bolder;
-			}
-			p{
-				color: lighten(black, 10%);
-				font-size: 0.95em;
-				margin: 6px 0px 6px 30px;
-			}
-		}
-	}
-	#info{
-		width: 55%;
-		#contact{
-			div{
-				margin: 0;
-				padding: 0;
-				figure {
-					padding:0;
-					margin:0;
-					width: 100%;
-					img{
-						width: 100%;
-						height: 50%;
-					}
-				}
-			}
-			#panel-r{
-				width: 60%;
-				margin-left: 10px;
-				h1{
-					margin-top: 0;
-					margin-bottom: 0;
-				}
-			}
-			#panel-l{
-				width: 40%;
-			}
+}
+//Section Three
+#section-three{
+	width: 50%;
+	display: flex;
+	flex-direction: row-reverse;
+	div{
+		width: 325px;
+		height: 300px;
+		text-align: justify;
+		img{
+			height: 100%;
+			border-radius: 3px;
 		}
 	}
 }
+
+
 
