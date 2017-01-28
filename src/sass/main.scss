@@ -55,6 +55,7 @@ header{
 #card{
 	background-color: darken(white, 15%);
 	border-radius: 10px;
+	text-align: justify; 
 	min-width: 43%;
 	max-width: 45%;
 	margin-bottom: 20px;
@@ -62,6 +63,9 @@ header{
 	overflow: hidden;
 	#bucketlist-descr, nav{
 		margin: 10px;
+		p{
+			margin-bottom: 15px;
+		}
 	}
 	nav{
 		display: flex;
@@ -219,7 +223,7 @@ header{
 }
 //Section Two 
 #section-two{
-	width: 95%;
+	width: 90%;
 	margin-bottom: 70px;
 		div{
 			height: 100%;
