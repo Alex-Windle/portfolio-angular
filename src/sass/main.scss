@@ -234,6 +234,87 @@ header{
 	}
 }
 
+//Responsive for tablet (up to 800px)
+@media (min-width: 421px) and (max-width: 800px){
+*{
+	max-width: 100%;
+}
+body{
+	background-color: lighten(yellow, 25%);
+}
+header{
+	max-width: 90%;
+	margin-bottom: 5px;
+	#title-bar{
+		flex-direction: column;
+		h1, h2{
+			font-size: 1.5em;
+		}
+	}
+	h1,h2{
+		font-size: 1em;
+	}
+	nav{
+		align-content: space-between;
+		width: 70%;
+		// margin: 20px 0px 0px 0px;
+		a{
+			font-size: 1em;
+			padding: 12px 12px;
+			}
+		}
+}
+// //Work
+// #work-title{
+// 	h1{
+// 		font-size: 1.1em;
+// 	}
+// }
+#work-cards{
+	flex-direction: column;
+}
+#card{
+	min-width: 85%;
+	max-width: 85%;
+	nav{
+		flex-direction: column;
+	}
+}
+//Section Three
+#section-three{
+	width: 80%;
+	flex-direction: column-reverse;
+	div{
+		width: 80%;
+		height: 100%;
+		text-align: justify;
+		margin-top: 5px;
+		#personal-info{
+			text-align: center;
+			font-size: 1.3em;
+		}
+		img{
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			border-radius: 3px;
+			// height: 100%;
+			}
+		}
+	}
+//Section Two 
+#section-two{
+	width: 80%;
+	flex-direction: row;
+	flex-wrap: wrap;
+		div{
+			width: 80%;
+			height: 100%;
+		}
+	}
+}
+
+
 
 
 
