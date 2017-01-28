@@ -3,7 +3,8 @@
 	max-width: 1200px;
 }
 body{
-	background: darken(#54BAA8, 7%);
+	// background: darken(#54BAA8, 7%);
+	background-color: lighten(red, 17%);
 }
 header{
 	max-width: 800px;
@@ -151,6 +152,83 @@ header{
 		}
 	}
 }
+//Responsive for mobile (up to 420px)
+@media (max-width: 420px){
+*{
+	max-width: 100%;
+}
+body{
+	background-color: lighten(red, 17%);
+}
+header{
+	max-width: 90%;
+	margin-bottom: 5px;
+	#title-bar{
+		flex-direction: column;
+		h1, h2{
+			font-size: 1.5em;
+		}
+	}
+	h1,h2{
+		font-size: 1em;
+	}
+	nav{
+		align-content: space-around;
+		width: 90%;
+		margin: 20px 10px;
+		a{
+			font-size: 1em;
+			padding: 12px 12px;
+			}
+		}
+	}
+//Work
+#work-title{
+	h1{
+		font-size: 1.1em;
+	}
+}
+#work-cards{
+	flex-direction: column;
+}
+#card{
+	min-width: 85%;
+	max-width: 85%;
+	nav{
+		flex-direction: column;
+	}
+}
+//Section Three
+#section-three{
+	width: 85%;
+	flex-direction: column-reverse;
+	div{
+		width: 90%;
+		height: 100%;
+		text-align: justify;
+		margin-top: 5px;
+		#personal-info{
+			text-align: center;
+			font-size: 1.3em;
+		}
+		img{
+			width: 100%;
+			border-radius: 3px;
+		}
+	}
+}
+//Section Two 
+#section-two{
+	width: 95%;
+	margin-bottom: 70px;
+		div{
+			height: 100%;
+		}
+	}
+}
+
+
+
 
 
 
